@@ -1,0 +1,2 @@
+def principal():
+    return True;
