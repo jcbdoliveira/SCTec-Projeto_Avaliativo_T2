@@ -39,7 +39,7 @@ def criar_novo_treinamento():
     print(f"Pasta '{nova_versao}' criada com sucesso.")
     return nova_versao
 
-def existe_modelo_tereinado():
+def existe_modelo_treinado():
     # Definindo o caminho da pasta "models"
     pasta_models = "models"
 
