@@ -1,0 +1,18 @@
+{
+    "Variaveis_X": [
+        "Indice_Novo",
+        "Media_Movel_Receita_3M",
+        "Media_Movel_Custos_3M",
+        "Despesas_Operacionais"
+    ],
+    "Metricas_Teste": {
+        "MAE": 502644.2399705882,
+        "MSE": 1802482610615.166,
+        "RMSE": 1342565.6820488025,
+        "R2": -0.08307462460376569
+    },
+    "Metricas_Treino": {
+        "MAE": 84513.61877164172,
+        "RMSE": 120593.96688732877
+    }
+}

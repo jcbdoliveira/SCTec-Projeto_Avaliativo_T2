@@ -37,7 +37,7 @@ def criar_novo_treinamento():
     nova_versao = os.path.join(pasta_models, f"v{versao}")
     os.makedirs(nova_versao)
     print(f"Pasta '{nova_versao}' criada com sucesso.")
-    return nova_versao
+    return  f"v{versao}"
 
 def existe_modelo_treinado():
     # Definindo o caminho da pasta "models"

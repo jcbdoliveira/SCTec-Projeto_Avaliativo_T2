@@ -1,16 +1,20 @@
 import subprocess
 import sys
 
+import subprocess
+import sys
+
 def instalar_bibliotecas():
     # Lista de bibliotecas a serem instaladas
     bibliotecas = [
         "numpy",
         "pandas",
         "matplotlib",
-        "scikit-learn", 
-        "re",
         "scipy",       
-        "seaborn"
+        "seaborn",
+        "pickle",
+        "json",
+        "sklearn"
     ]
 
     for biblioteca in bibliotecas:
@@ -19,5 +23,5 @@ def instalar_bibliotecas():
             print(f"A biblioteca '{biblioteca}' já está instalada.")
         except ImportError:
             print(f"A biblioteca '{biblioteca}' não está instalada. Instalando...")
-            subprocess.check_call([sys.executable, "-m", "pip", "install", biblioteca])
+            subprocess.check_call([sys.executable, "-m", "pip", "install", biblioteca, "-q"])
             print(f"A biblioteca '{biblioteca}' foi instalada com sucesso.")
